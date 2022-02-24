@@ -1,0 +1,35 @@
+	@font-face {
+	    font-family: 'Mega';
+	    src: url('Mega.eot');
+	    /* IE9 Compat Modes */
+	    src: url('Mega.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	    url('Mega.woff2') format('woff2'), /* Super Modern Browsers */
+	    url('Mega.woff') format('woff'), /* Pretty Modern Browsers */
+	    url('Mega.ttf') format('truetype'), /* Safari, Android, iOS */
+	    url('Mega.svg#svgFontName') format('svg');
+	    /* Legacy iOS */
+	}
+	
+	@font-face {
+	    font-family: 'Kufi Normal';
+	    src: url('Kufi Normal.eot');
+	    /* IE9 Compat Modes */
+	    src: url('Kufi Normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	    url('Kufi Normal.woff2') format('woff2'), /* Super Modern Browsers */
+	    url('Kufi Normal.woff') format('woff'), /* Pretty Modern Browsers */
+	    url('Kufi Normal.ttf') format('truetype'), /* Safari, Android, iOS */
+	    url('Kufi Normal.svg#svgFontName') format('svg');
+	    /* Legacy iOS */
+	}
+	
+	@font-face {
+	    font-family: 'Kufi Bold';
+	    src: url('Kufi Bold.eot');
+	    /* IE9 Compat Modes */
+	    src: url('Kufi Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	    url('Kufi Bold.woff2') format('woff2'), /* Super Modern Browsers */
+	    url('Kufi Bold.woff') format('woff'), /* Pretty Modern Browsers */
+	    url('Kufi Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+	    url('Kufi Bold.svg#svgFontName') format('svg');
+	    /* Legacy iOS */
+	}

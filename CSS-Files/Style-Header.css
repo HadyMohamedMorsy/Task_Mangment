@@ -1,0 +1,175 @@
+.Kufi-Normal {
+    font-family: Kufi Normal;
+}
+
+.Arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+    background-color: #f1daf1;
+}
+
+*::after,*::before,*{
+
+    box-sizing: border-box;
+}
+nav{
+    background-color: #5e3a68;
+}
+.offcanvas{
+    background-color: #5e3a68;
+
+}
+.nav{
+    position: relative;
+}
+.nav::before{
+    content: "";
+    position: absolute;
+    right: -20px;
+    width: 1px;
+    height: 80px;
+    background-color: #805185;
+    top: -15px;
+}
+
+/* color */
+
+.main-color{
+    color: #5e3a68;
+}
+
+/* color */
+
+
+.rounded-image{
+    border-radius: 50%;
+}
+.navbar-toggler{
+    position: relative;
+}
+.navbar-toggler::after{
+    content: "";
+    position: absolute;
+    left: -30px;
+    width: 1px;
+    height: 70px;
+    background-color: #805185;
+    top: -15px;
+}
+
+
+/* arabic */
+.nav:lang(ar)::before{
+    content: "";
+    position: absolute;
+    right: 80px;
+    width: 1px;
+    height: 80px;
+    background-color: #805185;
+    top: -15px;
+}
+
+.navbar-toggler:lang(ar)::after{
+    content: "";
+    position: absolute;
+    right: -30px;
+    width: 1px;
+    height: 70px;
+    background-color: #805185;
+    top: -15px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+
+/* arabic */
+.edit-submit{
+    padding: 10px 35px;
+    font-size: 20px;
+    background-color: #5e3a68;
+    border : 1px solid #5e3a68;
+
+}
+.edit-submit:hover{
+    background-color: #ae6dc0;
+    border : 1px solid #ae6dc0;
+}
+
+
+.add{
+    margin-top: 160px;
+}
+
+@media screen and (max-width: 767px){
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        margin-bottom: 20px;
+    }
+}
+
+.task-mangement{
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    overflow-x: auto;
+}
+
+
+/* header */
+
+.Eroor_page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Eroor_page .eroor_Text{
+
+    font-size: 70px;
+    color: #5e3a68;
+    font-weight: bold;
+
+}
+.table{
+    vertical-align: middle;
+}
+/* header */
+
+/* globale */
+.pending{
+    padding: 10px !important;
+    background-color: #f1c40f !important;
+    border-radius: 10px;
+}
+
+.Complete{
+    color: #27ae60 !important;
+
+}
+.UnComplete{
+    color: #e74c3c !important;
+}
+/* globale */
+
+
+/* notification */
+.notification{
+
+    background-color: #000;
+    padding: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+
+
+}
+
+.notification .content-write{
+    margin-top: 30px;
+}
+/* notification */

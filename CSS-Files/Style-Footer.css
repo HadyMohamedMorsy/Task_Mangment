@@ -1,0 +1,21 @@
+footer {
+    color: #dfe6e9;
+    background: #5e3a68;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.parent-copy-right{
+    justify-content: end;
+}
+
+@media screen and (max-width: 767px){
+    .parent-copy-right{
+        justify-content: center;
+    }
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+@font-face {
+	    font-family: 'Tajawal-Black';
+	    src: url('Tajawal-Black.eot');
+	    /* IE9 Compat Modes */
+	    src: url('Tajawal-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	    /* url('Tajawal-Black.woff2') format('woff2'),*/ /* Super Modern Browsers */
+	    /* url('Tajawal-Black.woff') format('woff'), *//* Pretty Modern Browsers */
+	    url('Tajawal-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+	    url('Tajawal-Black.svg#svgFontName') format('svg');
+	    /* Legacy iOS */
+	}

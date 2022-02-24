@@ -1,0 +1,26 @@
+# Start Redirect Section
+
+RewriteEngine On
+
+RewriteRule ^Home?$ Home.php
+
+RewriteRule ^Department?$ Department.php
+
+RewriteRule ^Manage-Users?$ Manage-Users.php
+
+RewriteRule ^Manage-Task?$ Manage-Task.php
+
+RewriteRule ^Task-History?$ Task-History.php
+
+RewriteRule ^Clients?$ Clients.php
+
+RewriteRule ^Events?$ Events.php
+
+RewriteRule ^Actions?$ Actions.php
+
+RewriteRule ^Profile?$ Profile.php
+
+RewriteRule ^Logout?$ Logout.php
+
+# End Redirect Section
+
